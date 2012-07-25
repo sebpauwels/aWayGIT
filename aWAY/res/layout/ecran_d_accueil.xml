@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="fill_parent"
+android:layout_height="fill_parent" android:background="@drawable/bg">
+ 
+    <ImageView android:layout_width="wrap_content" android:id="@+acountcreation/title"
+android:layout_height="wrap_content"  android:gravity="left"
+android:src="@drawable/tree" android:layout_marginTop="2dp" android:layout_marginLeft="2dp" />
+ 
+    <Button android:layout_width="wrap_content" android:layout_gravity="center"
+android:id="@+acountcreation/createAcount" android:layout_height="wrap_content"
+android:text="Créer un compte" android:layout_marginTop="40dp"/>
+ 
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content"
+android:text="Email" android:paddingTop="10dp" android:textSize="12sp" android:textStyle="bold"
+android:textColor="#000000" android:layout_gravity="center_horizontal" />
+ 
+    <EditText android:id="@+acountcreation/email" android:layout_width="250dp"
+     android:textSize="12sp" android:textStyle="bold"
+android:layout_height="40dp" android:layout_gravity="center"/>
+ 
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+android:text="Mot de passe" android:textColor="#000000" android:textSize="12sp" android:textStyle="bold"
+android:paddingTop="10dp" android:layout_gravity="center_horizontal" />
+ 
+    <EditText android:id="@+acountcreation/password" android:layout_width="250dp"
+android:layout_height="40dp" android:password="true"
+android:layout_gravity="center"  android:textSize="12sp" android:textStyle="bold"/>
+ 
+    <Button android:layout_width="wrap_content" android:id="@+acountcreation/connect"
+android:layout_height="wrap_content" android:enabled="false"
+android:text="Se connecter" android:layout_marginTop="20dp"
+android:layout_gravity="center"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:orientation="vertical" android:layout_width="match_parent"
+ android:layout_height="fill_parent">
+     
+        <CheckBox
+android:id="@+id/checkboxSouvenir" android:layout_width="wrap_content"  android:textSize="12sp" android:textStyle="bold"
+android:layout_height="wrap_content" android:textColor="#000000" android:text="Se souvenir de moi" />
+
+        <ImageView android:id="@+acountcreation/title" android:src="@drawable/footer" 
+android:layout_width="wrap_content" android:layout_height="wrap_content"         
+android:orientation="vertical" android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

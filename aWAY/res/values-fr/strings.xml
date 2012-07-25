@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- accueil et général-->
+    <string name="hello">Hello World, MainViewActivity!</string>
+    <string name="app_name">aWAY! - fr</string>
+    <string name="password">Mot de passe </string>
+    <string name="email">Adresse mail </string>
+    <string name="create">Créer un compte</string>
+    <string name="connect">Se connecter</string>
+  
+    <!-- connexion-->
+    <string name="asyncConnect_connect">En attente de connexion...</string>
+    <string name="asyncConnect_send">Envoie des données...</string>
+    <string name="asyncConnect_retrieve">En attente de réponse...</string>
+    <string name="asyncConnect_profile">Création du profil...</string>
+    <string name="asyncConnect_success">Connexion autorisée</string>
+    <string name="asyncConnect_fail">Connexion impossible</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mapKey">XxxxxxxxxxxxxxxxxxxxxxxxxX</string>
+    <!-- accueil et général-->
+    <string name="hello">Hello World, MainViewActivity!</string>
+    <string name="app_name">aWAY! - en</string>
+    <string name="password">Password </string>
+    <string name="email">Email adress </string>
+    <string name="create">Create new profile</string>
+    <string name="connect">Connection</string>
+
+    <!-- connexion-->
+    <string name="asyncConnect_connect">Waiting for connection...</string>
+    <string name="asyncConnect_send">Sending datas...</string>
+    <string name="asyncConnect_retrieve">Retrieving user informations...</string>
+    <string name="asyncConnect_profile">Profile creation...</string>
+    <string name="asyncConnect_success">Connection succeed</string>
+    <string name="asyncConnect_fail">Connection failed</string>
+</resources>
